@@ -1,0 +1,33 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "chinabox":200,
+    "moto99": 130,
+    "ifood":0,
+    "lalamove":0,
+    "data":"26/09/2024"
+
+}
+
+###
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/66f6a8e487fab6501a34c061
+
+###
+DELETE http://localhost:3000/api/services/66f6a26f6ea172fbbc03ee0e
+
+###
+PUT http://localhost:3000/api/services/66f6a8e487fab6501a34c06a
+Content-Type: application/json
+
+{
+    "chinabox":2000,
+    "moto99": 1300,
+    "ifood":0,
+    "lalamove":0,
+    "data":"27/09/2024"
+
+}
