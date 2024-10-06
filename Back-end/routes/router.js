@@ -7,9 +7,5 @@ const servicesRouter = require("./services");
 
 router.use("/",servicesRouter);
 
-// motoboy routes
-const motoboyRouter = require("./motoboys");
-
-router.use("/",motoboyRouter);
 
 module.exports = router;

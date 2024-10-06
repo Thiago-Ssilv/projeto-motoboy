@@ -24,6 +24,14 @@ const serviceSchema = new Schema({
         type:String,
         required:true
     },
+    gastos:{
+       type:Number,
+       required:true
+    },
+    lucros:{
+        type:Number,
+        required:true
+     },
 },
 { timestamps: true }
 );

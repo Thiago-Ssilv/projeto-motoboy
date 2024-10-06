@@ -10,6 +10,8 @@ const serviceController = {
             ifood: req.body.ifood,
             lalamove: req.body.lalamove,
             data: req.body.data,
+            gastos: req.body.gastos,
+            lucro: req.body.lucro,
           };
 
           const response = await ServiceModel.create(service);

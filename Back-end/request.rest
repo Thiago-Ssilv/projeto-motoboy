@@ -31,3 +31,17 @@ Content-Type: application/json
     "data":"27/09/2024"
 
 }
+###
+POST http://localhost:3000/api/motoboy
+Content-Type: application/json
+
+
+{
+
+    "ganhos":2500,
+    "gastos":500,
+    "lucro":2000,
+    "services":100
+
+
+}
